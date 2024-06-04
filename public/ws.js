@@ -1,4 +1,4 @@
-const socket = io("http://localhost:9000");
+const socket = io("https://agario-clone-production-4846.up.railway.app");
 
 async function init() {
   const initData = await socket.emitWithAck("init", {
